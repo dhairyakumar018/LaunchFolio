@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+dist/
+build/
+
+# Secrets & Env
+.env
+.env.*
+.dev.vars
+.wrangler/
+.vercel
+.netlify
+*.local
+wrangler.toml
+
+# Databases
+*.sqlite
+*.sqlite-journal
+metadata.sqlite
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
